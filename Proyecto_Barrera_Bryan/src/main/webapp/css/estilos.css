@@ -1,0 +1,101 @@
+@charset "ISO-8859-1";
+body {
+ background-color: #808040;
+ }
+h1 {
+color: white;
+ text-align: center;
+ font-family: arial;
+}
+#favorito {
+border: 1px solid #99c; 
+color: #1ABC9C;
+}
+.destacado {
+ font-weight: bold;
+ color: orange;
+ text-align: center;
+}
+p {
+ font-family: verdana;
+ font-size: 15px;
+}
+
+header, nav, section, article, footer{
+border:1px solid black;
+display: block;
+}
+header {
+ background-color: #5f939a;
+ padding: 10px 5px;
+}
+nav {
+ overflow: hidden;
+ background-color: #d8ac9c;
+ padding: 10px 5px;
+}
+.agrupar
+{
+border:1px;
+float: center;
+width:960px;
+}
+section { 
+margin:20px;
+width: 600px;
+float:center;
+background:gray;
+}
+aside{
+margin: 10px;
+padding: 20px;
+width:250px;
+border: 2px;
+float:right;
+background:gray;
+align-items: center;
+}
+footer {
+ overflow: hidden;
+ background-color: rgb(64, 0, 64);
+ padding: 20px 10px;
+ text-align: center;
+ 
+}
+footer {
+ overflow: hidden;
+ background-color: #eac8af;
+ padding: 20px 10px;
+ text-align: center;
+ clear:both;
+}
+footer li{
+list-style: none;
+font:bold 14px verdana;
+padding: 10px;
+display: inline-block;
+}
+nav a {
+ float: left;
+ color: black;
+ text-align: center;
+ padding: 12px;
+ text-decoration: underline;
+ font-size: 18px; 
+ line-height: 25px;
+ border-radius: 4px;
+}
+nav a:hover {
+ background-color: #ddd;
+ border:1px solid gray;
+ color: black;
+}
+nav a.active {
+ background-color: dodgerblue;
+border:1px solid gray;
+ color: white;
+}
+
+
+
+
